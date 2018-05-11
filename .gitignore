@@ -1,0 +1,23 @@
+# Mac
+.DS_Store
+
+#Intellij
+*.iml
+*.ipr
+*.iws
+.idea/
+out
+
+# Compiled object files
+*.o
+*.a
+*.so
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven
+log/
+target/
