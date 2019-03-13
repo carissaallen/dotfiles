@@ -1,0 +1,33 @@
+# alias
+alias bash-source="source ~/.bash_profile"
+alias alias-grep="alias | grep"
+
+# ls -- list directory contents
+alias ls="ls --color=auto"			# colorize ls output
+alias ll="ls -l" 				# list in long format
+alias lrt="ls -lrt"				# list in long format, in reverse order of modification time
+
+# cd -- change directory
+alias cd..="cd .."
+alias ..="cd .." 
+alias ....="cd .. && cd .."
+alias ......="cd .. && cd .. && cd .."
+# alias cd-CS = /Users/carissawood/Documents/CS
+# alias cd-PSU = /Users/carissawood/Documents/PSU
+
+# df -- display free disk space
+alias df="df -h"				# human-readable output 
+
+# ps -- process status
+alias ps-grep="ps aux | grep" 			# e.g., 'ps-grep sammy' will list processes that have 'sammy' in the description
+
+# git
+alias gac="git add . && git commit"
+
+# history
+alias hs="history | grep"			# e.g., 'hs cow' will search history to find everything with keyword 'cow'
+
+# ip 
+alias myip="curl http://ipecho.net/plain; echo"	# show my ip address
+
+
